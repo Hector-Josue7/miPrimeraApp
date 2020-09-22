@@ -2,11 +2,16 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
+
 import { AppComponent } from './app.component';
+
+import {HelloWorld} from './primercomponente/primer.component';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HelloWorld
   ],
   imports: [
     BrowserModule,
@@ -16,3 +21,7 @@ import { AppComponent } from './app.component';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
+
+
+
